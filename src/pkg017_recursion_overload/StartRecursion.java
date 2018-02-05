@@ -8,6 +8,9 @@ package pkg017_recursion_overload;
 /**
  *
  * @author compsci
+ * @version 1.0
+ * @param numbers in the form of an int, for various recursions including: down, up, and Evens
+ * @returns blanks in the console to space out the recursions
  */
 public class StartRecursion {
     
@@ -22,7 +25,13 @@ public class StartRecursion {
         int stopValue = 50;
         recurseEvens(startValue, stopValue);
     }
-
+    /**
+     * Displays all numbers from n through 0
+     * 
+     * @param int "n"
+     * 
+     * @return ints that have been recursed
+     */
     private static void recurse(int n) {
         System.out.println("We have done recurse " + n + " time(s)");
         n--;
@@ -33,7 +42,14 @@ public class StartRecursion {
         
         
     }
-    
+    /**
+     * Displays all numbers starting from the n int to 10
+     * 
+     *
+     * @param int "n"
+     * 
+     * @return ints that have been recursed
+     */
     private static void recurseUp(int n) {
         System.out.println("recurseUp value is: " + n + " this time.");
         n++;
@@ -49,6 +65,8 @@ public class StartRecursion {
      * 
      * @param startValue
      * @param stopValue 
+     * 
+     * @return ints that have been recursed
      */
     
     //overload define: methods have the same name!!
