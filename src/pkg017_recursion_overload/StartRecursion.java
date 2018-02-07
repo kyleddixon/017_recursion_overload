@@ -43,7 +43,7 @@ public class StartRecursion {
         
     }
     /**
-     * Displays all numbers starting from the n int to 10
+     * Displays all numbers starting from the n int to 10 or whatever number you want
      * 
      *
      * @param int "n"
